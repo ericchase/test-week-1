@@ -15,22 +15,70 @@
   <meta name="apple-mobile-web-app-title" content="tw1" />
   <meta name="msapplication-starturl" content="/" />
 
-  <meta name="description" content="A simple PWA." />
   <meta name="author" content="B&E" />
+  <meta name="description" content="A simple PWA." />
+  <meta name="theme-color" content="#ee14b7" />
+
   <link rel="shortcut icon" href="favicon.png" />
 
+  <!-- Critical Styles -->
+  <style type="text/css">
+    body {
+      background-color: #ee14b7;
+      color: black;
+    }
+
+    .vertical-container {
+      height: 300px;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-align-items: center;
+      align-items: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+    }
+
+    h1.vertical-container {
+      font-size: 275%;
+    }
+  </style>
+
+  <!-- CSS if JavaScript is disabled -->
+  <noscript>
+    <style type="text/css">
+      body {
+        background-color: #FFF;
+        color: #000;
+        text-align: center;
+        font-size: 150%;
+      }
+    </style>
+  </noscript>
+
   <!-- Stylesheets -->
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" defer />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet" defer />
 
   <!-- Production Vue.js -->
   <script src="https://cdn.jsdelivr.net/npm/vue"></script>
 
+  <!-- Preload -->
+  <!-- <link rel=preload href="/components/App.js" as="script"> -->
+
   <!-- App Code -->
-  <script src="/main.js" type="module" defer></script>
+  <script src="/main.js" type="module"></script>
 </head>
 
 <body>
+  <!-- Content if JavaScript is disabled -->
+  <noscript>
+    <br /> <br />
+    <p> For full functionality of this site, it is necessary to enable JavaScript. </p>
+    <br />
+    <p> Here are the instructions <a href="https://www.enable-javascript.com/">
+        how to enable JavaScript in your web browser</a>. </p>
+  </noscript>
+
   <div id="app">
     <!-- <h1 class="vertical-container">ni hao kailan</h1> -->
   </div>
