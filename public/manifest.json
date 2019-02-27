@@ -1,9 +1,23 @@
 {
-  "name": "test-week-1",
   "short_name": "tw1",
+  "name": "test-week-1",
   "description": "A simple PWA.",
   "lang": "en-US",
+  "icons": [
+    {
+      "src": "/icons/icon192px.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/icons/icon512px.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
   "start_url": "/",
+  "background_color": "#ee14b7",
+  "theme_color": "#ee14b7",
   "display": "standalone",
   "orientation": "landscape-primary"
 }
