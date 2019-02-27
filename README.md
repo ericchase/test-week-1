@@ -83,3 +83,9 @@ install firebase-tools
     `npm install -g firebase-tools`
     `firebase init`    # Generate a firebase.json (REQUIRED)
     `firebase serve`   # Start development server
+
+tweaked all the firebase/manifest settings
+
+uninstalled browser-sync since firebase handles it now
+
+adding service workers
