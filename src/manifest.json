@@ -1,0 +1,9 @@
+{
+  "name": "test-week-1",
+  "short_name": "tw1",
+  "description": "A simple PWA.",
+  "lang": "en-US",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "landscape-primary"
+}
