@@ -75,3 +75,11 @@ add the App component in App.js
 add meta tags to index.html
 add icons
 use web app manifest generator to create a manifest file
+
+create new project to firebase
+add firebase to local project
+    https://firebase.google.com/docs/web/setup?authuser=0
+install firebase-tools
+    `npm install -g firebase-tools`
+    `firebase init`    # Generate a firebase.json (REQUIRED)
+    `firebase serve`   # Start development server
