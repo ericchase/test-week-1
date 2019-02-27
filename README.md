@@ -75,4 +75,3 @@ add the App component in App.js
 add meta tags to index.html
 add icons
 use web app manifest generator to create a manifest file
-
