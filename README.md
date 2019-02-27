@@ -53,3 +53,25 @@ add base html code to index.html
     </body>
     </html>
 
+add some javascript code to main.js
+    // src/main.js
+    import App from './components/App.js';
+
+    new Vue({
+    render: h => h(App),
+    }).$mount(`#app`);
+
+add the App component in App.js
+    // src/components/App.js
+    export default {
+    name: 'App',
+    template: `
+        <div class="container mx-auto p-4">
+        <h1>Hello World</h1>
+        </div>
+    `,
+    };
+
+add meta tags to index.html
+add icons
+use web app manifest generator to create a manifest file
