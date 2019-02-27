@@ -3,8 +3,6 @@ var CACHE_VERSION = '0.0.0';
 
 var ACTIVE_CACHE = `${CACHE_NAME}-v${CACHE_VERSION}`;
 
-console.log(CACHE_NAME);
-
 var appShellFiles = [
     '/',
     '/favicon.png',
@@ -35,6 +33,7 @@ self.addEventListener('install', function (e) {
 //             return Promise.all(
 //                 cacheList.map(function (cache) {
 //                     if (cache.startsWith(CACHE_NAME) && cache !== ACTIVE_CACHE) {
+//                         console.log('[Service Worker] Remove Cache:', cache);
 //                         return caches.delete(cache);
 //                     }
 //                 })
@@ -51,6 +50,7 @@ self.addEventListener('activate', function (e) {
             return Promise.all(
                 cacheList.map(function (cache) {
                     if (cache !== ACTIVE_CACHE) {
+                        console.log('[Service Worker] Remove Cache:', cache);
                         return caches.delete(cache);
                     }
                 })
