@@ -60,8 +60,8 @@ typings/
 # next.js build output
 .next
 
-# secrets
+# secrets folder
 .secrets
 
 # firebase cache
-.firebase/hosting.cHVibGlj.cache
+.firebase
