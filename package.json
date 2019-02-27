@@ -1,0 +1,23 @@
+{
+  "name": "test-week-1",
+  "version": "1.0.0",
+  "description": "Most basic setup for PWA page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --server 'src' --files 'src' --single"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericchase/test-week-1.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ericchase/test-week-1/issues"
+  },
+  "homepage": "https://github.com/ericchase/test-week-1#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3"
+  }
+}
