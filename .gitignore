@@ -62,3 +62,6 @@ typings/
 
 # secrets
 .secrets
+
+# firebase cache
+.firebase/hosting.cHVibGlj.cache
