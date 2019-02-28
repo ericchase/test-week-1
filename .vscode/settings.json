@@ -2,5 +2,7 @@
     "html.format.wrapLineLength": 0,
     "editor.wordWrapColumn": 1,
     "prettier.printWidth": 0,
-    "html.format.maxPreserveNewLines": 2
+    "html.format.maxPreserveNewLines": 2,
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false
 }

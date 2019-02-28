@@ -1,6 +1,9 @@
 {
   "settings": {
-    "html.format.maxPreserveNewLines": 2
+    "html.format.maxPreserveNewLines": 2,
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false,
+    "window.autoDetectHighContrast": false
   },
   "folders": [
     {
