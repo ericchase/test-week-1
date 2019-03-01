@@ -12,7 +12,7 @@ function promptUserToUpdate(worker) {
   // don't use window.confirm in real life; it's terrible
   if (worker !== null) {
     console.log('[Service Worker] Prompt for Update', worker);
-    
+
     // new Vue({
     //   el: '#update',
     //   data: {
